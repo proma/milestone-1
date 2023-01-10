@@ -143,3 +143,65 @@ main {
 }
 
 /* Resume */
+.resume-content {
+  display: flex;
+  gap: 24px;
+}
+
+.education .education-tittle {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin: 30px 0px;
+}
+
+.education .institute {
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.educaiton .istitutional-details {
+  color: #757575;
+  font-size: 18px;
+}
+
+hr {
+  margin: 50px 0px;
+}
+
+.download-btn {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+/* Connect Us */
+.contactus {
+  display: flex;
+  gap: 50px;
+}
+
+.contactus .section-tittle {
+  text-align: left;
+}
+
+.connect a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.connect img {
+  width: 30px;
+}
+
+.contactus input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 24px;
+  width: 100%;
+  padding: 18px 30px;
+}
+
+input {
+  height: 50px;
+}
