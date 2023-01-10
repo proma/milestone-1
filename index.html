@@ -6,27 +6,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="icon" type="image/x-icon" href="download.png" />
-    <style>
-      p{
-        color: red;
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <p>
-      Lorem Ipsum is <em>dummy text of the printing</em> and typesetting
-      industry. Lorem Ipsum has been the industry's standard dummy text ever
-      since the 1500s, when an unknown printer took a galley of type and
-      scrambled it to make a type specimen book. It has survived not only five
-      centuries, but also the leap into electronic typesetting, remaining
-      essentially unchanged. It was popularised in the 1960s with the release of
-      Letraset sheets containing Lorem Ipsum passages, and more recently with
-      desktop publishing software like Aldus PageMaker including versions of
-      <small>Lorem Ipsum</small> .
+    <header class="header">
+      <nav>
+        <h2 class="nav-tittle">Ma<span class="text-primary">r</span>y</h2>
 
-      <p>dfsdf</p>
+        <ul>
+          <li>Portfolio</li>
+          <li>Blog</li>
+          <li><button class="btn-primary">Hire me</button></li>
+        </ul>
+      </nav>
 
-      <h1>ddf</h1>
-    </p>
+      <!-- header banner -->
+      <div class="banner">
+        <div>
+          <h3 class="banner-sub-tittle">Hi, I am</h3>
+          <h1 class="banner-tittle">Mary Hardy</h1>
+          <p class="banner-content">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took
+          </p>
+          <button class="btn-primary">Download CV</button>
+        </div>
+        <img src="formal.png" alt="" />
+      </div>
+    </header>
+
+    <main>
+      <section class="about">
+        <h3 class="section-tittle">About Me</h3>
+        <p class="section-content">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took
+        </p>
+        <div class="about-info-container">
+          <div class="about-info">
+            <p class="info-tittle">Name:</p>
+            <p class="info-description">Mary Hardy</p>
+          </div>
+          <div class="about-info">
+            <p class="info-tittle">Email:</p>
+            <p class="info-description">info@gmail.com</p>
+          </div>
+          <div class="about-info">
+            <p class="info-tittle">Speciality:</p>
+            <p class="info-description">Web Dev</p>
+          </div>
+          <div class="about-info">
+            <p class="info-tittle">Location:</p>
+            <p class="info-description">Dhaka</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- What I do section -->
+      <section class="what-i-do">
+        <h3 class="section-tittle">What I do</h3>
+        <div class="skills-container">
+          <div class="skill">
+            <img src="skills/vanilla.png" alt="" />
+            <p class="skill-tittle">Vanilla Javascript</p>
+            <p class="skill-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
+              unde dolorem sunt ut libero deleniti?
+            </p>
+          </div>
+          <div class="skill">
+            <img src="skills/React.png" alt="" />
+            <p class="skill-tittle">React JS</p>
+            <p class="skill-description">
+              Provident doloribus, et exercitationem nihil minima, hic officiis
+              obcaecati id quibusdam veritatis nobis recusandae quidem.
+            </p>
+          </div>
+          <div class="skill">
+            <img src="skills/node.png" alt="" />
+            <p class="skill-tittle">Node JS</p>
+            <p class="skill-description">
+              Iste iusto impedit minima obcaecati vitae asperiores cumque,
+              deserunt neque beatae labore vel dignissimos dolore?
+            </p>
+          </div>
+          <div class="skill">
+            <img src="skills/MongoDB.png" alt="" />
+            <p class="skill-tittle">MongoDB</p>
+            <p class="skill-description">
+              Laboriosam illo atque cupiditate voluptates eum sit quis ipsum.
+              Cum, cupiditate itaque! Corporis, eius nostrum.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Resume -->
+      <section class="resume">
+        <h3 class="section-tittle">A Summary of My Resume</h3>
+
+        <div class="resume-content">
+          <div class="my-education"></div>
+          <div class="my-experience"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
   </body>
 </html>
